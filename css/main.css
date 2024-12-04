@@ -14,7 +14,7 @@ body {
     outline: none;
     background: none;
     cursor: pointer;
-} */
+}
 
 
 /* .primary-btn {
@@ -79,35 +79,44 @@ a {
 
 /* hero */
 
-.enjoy {
-    background: url('../img/Rectangle\ 12.jpg') center center / cover no-repeat;
-    display: flex;
-    align-items:center;
-}
 
-.enjoy--content {
+
+.hero {
+    background: url('../img/Rectangle\ 12.jpg') center center / cover no-repeat;
+    height: 735px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .hero__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .hero__content--info {
     display: flex;
     flex-direction: column;
     gap: 50px;
     width: 529px;
-}
-
-.enjoy h1 {
+  }
+  
+  .hero__content--info h1 {
     font-size: 72px;
     line-height: 130%;
     color: #fff;
     font-family: 'righteous';
     font-weight: 700;
-}
-
-.enjoy p {
+  }
+  
+  .hero__content--info p {
     font-size: 20px;
     line-height: 180%;
     color: #fff;
     font-family: 'urbanist';
-}
-
-.enjoy--content a {
+  }
+  
+  .hero__content--info a {
     font-size: 18px;
     line-height: 130%;
     color: #fff;
@@ -117,9 +126,7 @@ a {
     padding: 20px;
     text-transform: uppercase;
   }
-
-
-.main__content {
+  .main__content {
     display: flex;
     flex-direction: column;
     gap: 140px;
