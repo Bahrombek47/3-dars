@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "urbanist";
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background: #14110E;
+}
+/* button {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+} */
+
+
+/* .primary-btn {
+    padding: 20px 36px;
+    background: #C99E71;
+    color: #fff;
+    font-size: 18px;
+    line-height: 130%;
+    font-family: 'inter';
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+} */
+
+.container {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+/* header */
+
+header {
+    background: #1C1814;
+    padding: 32px 0;
+}
+
+.container__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    color: white;
+    transition: 0.3s;
+}
+
+.nav-bar ul {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.container__nav a:hover {
+    color: #C99E71;
+}
+
+.nav-Bar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+/* hero */
+
+.enjoy {
+    background: url('../img/Rectangle\ 12.jpg') center center / cover no-repeat;
+    display: flex;
+    align-items:center;
+}
+
+.enjoy--content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 529px;
+}
+
+.enjoy h1 {
+    font-size: 72px;
+    line-height: 130%;
+    color: #fff;
+    font-family: 'righteous';
+    font-weight: 700;
+}
+
+.enjoy p {
+    font-size: 20px;
+    line-height: 180%;
+    color: #fff;
+    font-family: 'urbanist';
+}
+
+.enjoy--content a {
+    font-size: 18px;
+    line-height: 130%;
+    color: #fff;
+    font-family: 'inter';
+    background: #C99E71;
+    align-self: flex-start;
+    padding: 20px;
+    text-transform: uppercase;
+  }
+
+
+.main__content {
+    display: flex;
+    flex-direction: column;
+    gap: 140px;
+    padding: 140px 16px;
+  }
+  
